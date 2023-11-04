@@ -1,0 +1,346 @@
+
+body{
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/*Mudança da fonte*/
+@font-face {
+  font-family: 'fonte';
+  src: url(/FONTE/Cheque-Regular.otf);
+}
+/*Cabeçario do site*/
+.cabeca {
+  height: 7.3em;
+  width: 100%;
+  border-bottom: 2px solid #777777;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cabeca div {
+  height: 7em;
+  width: 20%;
+  margin: 5px;
+  display: flex;
+  justify-content: left;
+}
+
+.logo img {
+  height: 100%;
+  width: 127, 83%;
+}
+
+.nome p {
+  font-size:55px;
+  font-family: 'fonte';
+  position: relative;
+  right: 3em;
+  bottom: 30px;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 3em;
+  left: 5em;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0087BF;
+  color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;  
+  font-size: 15px;
+  position: relative;
+  top: .2em;
+  left: 15em;
+}
+button:hover{
+  border: 2px solid rgb(255, 255, 255) ;
+}
+
+/*Slides que irão passar*/
+.slider{
+  margin:0 auto;
+  width: 960px;
+  height: 240px;
+  overflow: hidden;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.slides{
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+.slides input{
+  display: none;
+}
+.slide{
+  width: 25%;
+  position: relative;
+  transition: 2s;
+  top: 5px;
+  
+}
+.slide img{
+  width: 960px;
+}
+.manual-navigation{
+  position: absolute;
+  width: 960px;
+  margin-top: 14em;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn{
+  border: 2px solid rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(:last-child){
+  margin-right: 20px;
+}
+.manual-btn:hover{
+  background-color: rgb(48, 43, 43);
+}
+/*Quando o radio estiver selecionado*/
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+#radio2:checked ~ .first{
+  margin-left: -25%;
+}
+#radio3:checked ~ .first{
+  margin-left: -50%;
+}
+#radio4:checked ~ .first{
+  margin-left: -75%;
+}
+#radio5:checked ~ .first{
+  margin-left: -100%;
+}
+#radio6:checked ~ .first{
+  margin-left: -125%;
+}
+.navigation-auto div{
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background-color: rgb(48, 43, 43);
+}
+/*Fim dos slides que irão passar*/
+
+
+/*Corpo do site*/
+
+/*Mudança do cursor em cima dos livros*/
+.livros:hover img{ 
+  cursor: url(/cursor.cur), default;
+}
+/*Primeira fileira de livros*/
+.linha1{
+  display: flex;
+  justify-content: center;
+}
+.linha1 div{
+  margin: 8px;
+  margin-top: 50px;
+}
+.livro1:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro2:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro3:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro4:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro5:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro6:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.linha2{
+  display: flex;
+  justify-content: center;
+}
+.linha2 div{
+  margin: 8px;
+  margin-top: 50px;
+  
+}
+.livro7:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro8:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro9:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro10:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro11:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro12:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.linha3{
+  display: flex;
+  justify-content: center;
+}
+.linha3 div{
+  margin: 8px;
+  margin-top: 50px;
+}
+.livro13:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro14:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro15:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro16:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro17:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro18:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.linha4{
+  display: flex;
+  justify-content: center;
+}
+.linha4 div{
+  margin: 8px;
+  margin-top: 50px;
+}
+.livro19:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro20:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro21:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro22:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro23:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro24:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.linha5{
+  display: flex;
+  justify-content: center;
+}
+.linha5 div{
+  margin: 8px;
+  margin-top: 50px;
+}
+.livro25:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro26:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro27:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro28:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro29:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro30:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.linha6{
+  display: flex;
+  justify-content: center;
+}
+.linha6 div{
+  margin: 8px;
+  margin-top: 50px;
+}
+.livro31:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro32:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro33:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro34:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro35:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+.livro36:hover{
+  border: 2px solid rgb(0, 140, 255) ;
+}
+/*Segunda fileira de livros*/
+
+/*Terceira fileira de livros*/
+
+/*Parte inferior do site*/
+.rodape{
+  position: relative;
+  top: 40em;
+  background-color: rgb(218, 212, 208);
+}
+.rodape img{
+  position: relative;
+  bottom: 2em;
+  left: 3em;
+  background-color: rgb(218, 212, 208);
+}
+.rodape h3{
+  position:relative ;
+  left: 13em;
+  top: 7em;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 44em;
+  background-color: rgb(218, 212, 208);
+  color: rgb(0, 0, 0);
+  
+}

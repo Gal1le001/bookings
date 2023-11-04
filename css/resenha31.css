@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(215, 223, 223);
+}
+body{
+    overflow-x: hidden;
+}
+.title h1{
+
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 12.5em;
+    top: 5em;
+    text-decoration: underline;
+}
+.btn{
+    border: none;
+    padding: 10px 33px;
+    text-decoration: none;
+    transition: background .5s;
+    border-radius: 10px;
+    font-family: "Arial";
+    border-left: 10px solid rgb(228, 97, 74) ;
+}
+.btn{
+    background-color: rgb(245, 19, 19);;
+    outline-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    position: relative;
+    left:65em;
+    bottom: 25em;
+    font-weight: bold;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.btn:hover{
+    cursor: url(/cursor.cur), default;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    font-weight: bold
+    
+}
+.button{
+    text-align: left;
+    display: block;
+}
+
+.btn2{
+    border: none;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .5s;
+    border-radius: 10px;
+    font-family: "Arial";
+    border-left: 10px solid rgb(51, 139, 255) ;
+}
+.btn2{
+    background-color: rgb(1, 48, 255);
+    outline-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    position: relative;
+    left:65em;
+    bottom: 21em;
+    font-weight: bold;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.btn2:hover{
+    cursor: url(/cursor.cur), default;
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 48, 255);
+    font-weight: bold;
+}
+.button2{
+    text-align: left;
+    display: block;
+}
+
+.btn3{
+    border: none;
+    padding: 10px 28px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .5s;
+    border-radius: 10px;
+    font-family: "Arial";
+    border-left: 10px solid rgb(0, 143, 43) ;
+}
+.btn3{
+    background-color: rgb(1, 209, 1);
+    outline-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    position: relative;
+    left:65em;
+    bottom: 17em;
+    font-weight: bold;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.btn3:hover{
+    cursor: url(/cursor.cur), default;
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 209, 1);
+    font-weight: bold
+    
+}
+.button3{
+    text-align: left;
+    display: block;
+}
+
+.btn4{
+    border: none;
+    padding: 10px 36px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .5s;
+    border-radius: 10px;
+    font-family: "Arial";
+    border-left: 10px solid rgb(255, 134, 20);
+}
+.btn4{
+    background-color: rgb(255, 115, 0);
+    outline-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    position: relative;
+    left:65em;
+    bottom: 13em;
+    font-weight: bold;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn4:hover{
+    cursor: url(/cursor.cur), default;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+    
+.button4{
+    text-align: left;
+    display: block;
+}
+.livro{
+    height: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+.livro p{
+    padding-left: 3em;
+    padding-right: 25em;
+    padding-top: 6em;
+    padding-bottom: 4em;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+
+}
+.livro img{
+    position: relative;
+    top: 5em;
+    left: 2em;
+    border-radius: 15px;    
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.Logo{
+    position: relative;
+    top: 22em;
+    background-color: rgb(198, 202, 202);
+}
+.Logo img{
+    position: relative;
+    bottom: 2em;
+    left: 3em;
+    background-color: rgb(198, 202, 202);
+}
+.Logo p{
+    position:relative ;
+    left: 13em;
+    top: 7em;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 44em;
+    background-color: rgb(198, 202, 202);
+    color: rgb(0, 0, 0);
+    
+}
